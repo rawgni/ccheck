@@ -1,0 +1,4 @@
+FROM perl:$VERSION
+WORKDIR /tmp
+COPY test.pl /tmp
+CMD perl test.pl

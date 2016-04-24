@@ -1,0 +1,6 @@
+FROM node:$VERSION
+COPY package.json /tmp/package.json
+WORKDIR /tmp
+RUN npm install
+COPY test.js /tmp/.
+CMD node test.js

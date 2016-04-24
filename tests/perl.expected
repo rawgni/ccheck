@@ -1,0 +1,9 @@
+TAP version 13
+1..3
+ok 1 - ver. 5
+ok 2 - ver. 5.20.3
+ok 3 - ver. 5.22
+
+#tests 3
+#pass  3
+#fail  0
