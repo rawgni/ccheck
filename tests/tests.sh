@@ -20,15 +20,6 @@ for i in ${!ARR[@]}; do
 	fi
 done
 
-#(cd ../examples/perl; ./run.sh) | diff node.expected - > /dev/null
-#if [[ $? -eq 0 ]]; then
-#	printf "ok 2"
-#	let PASS++
-#else
-#	printf "not ok 2"
-#	let FAIL++
-#fi
-
 printf "\n"
 printf "#tests $TESTS\n"
 printf "#pass $PASS\n"

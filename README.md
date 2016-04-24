@@ -11,7 +11,7 @@ You will need to have Docker (https://www.docker.com) installed.
 - Create a custom Dockerfile template for your project.
 - invoke `ccheck.sh <template> [version]*`
 
-`ccheck.sh Dockerfile.tmpl 4.4.2 5.10.1 latest`
+`$ ccheck.sh Dockerfile.tmpl 4.4.2 5.10.1 latest`
 
 ## Example Dockerfile template
 
